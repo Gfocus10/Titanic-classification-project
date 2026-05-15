@@ -11,9 +11,6 @@ The goal is to demonstrate an end-to-end machine learning workflow including dat
 ## Dataset
 The dataset used is the Titanic dataset (commonly used for classification tasks).
 
-- Training data: `train.csv`
-- Test data: `test.csv`
-
 ---
 
 ## Tech Stack
@@ -96,13 +93,11 @@ Open:
 ## Project Structure
 
 ```
-titanic-classification/
+tittanic/
 │
-├── notebooks/
-│   └── titanic_model.ipynb
-├── data/
-│   ├── train.csv
-│   └── test.csv
+├── titanic_project.ipynb
+├── Titanic-Dataset.csv
+├── titanic_cleaned2.csv
 ├── requirements.txt
 └── README.md
 ```
